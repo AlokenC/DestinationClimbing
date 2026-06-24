@@ -1,0 +1,67 @@
+Destination Climbing Work Logs:
+- 6/19/26:
+ 	- Goals: 
+		- Refine my query to Open Beta 
+		- Get code which extacts the query info into a dataframe
+			- Name, Grade, Location information/area ancestors
+		- Look into setting up backend with PostgreSQL
+	- Work Done: 
+		- The problem of the query depth for climbs, where climbs were found at varying 
+		  children depths can be be solved by chunking my queries so that I can alter them 
+		  by location 
+		- When 6 levels were nested a timeout was faced.
+		-
+	- Side Goals for the Future:
+	- Create a script for entering the venv and git
+- 6/21/26: 
+	- Goals:
+		- Work on the setting up the Postgres database
+		- Start the preliminary planning steps such as creating a sample digram
+	- Work Done:
+		- Answered some pre-design questions 
+		- Created a table for a sample structure for the database
+		- Created some basic create table statements for the areas, climbs and weather
+		- The area table has a parent_key field. The purpose of this is so that any area can 
+		  have 1 direct parent 
+		  area with numerous childeren which can be either areas or climb. 
+	- Goals for the future:
+		- Create the tables
+		- Try to start populating the tables
+- 6/22/26:
+	- Goals: 
+		- Create the tables 
+		- Write code which can populate the tables 
+		- Start to experiment with adding the weather data
+	- Work Done:
+		- Nothing woke up late went to the gym
+- 6/23/26:
+	- Goals: 
+		- Create the tables 
+		- Write code which can populate the tables 
+		- Start to experiment with adding the weather data
+	- Work Done:
+		- Created Database
+		- Inserted dummy data into the database
+		- tested some initial selection queries
+- 6/24/26:
+	- Goals:
+		- Further test the database
+		- Write a python script that inserts dummy data into the database
+		- One testing is complete start writing a chunked query that can retrieve all relevant
+		  information from the database and then input it into the database
+		- (Optional) Start testing getting weather data at a certain timeframe.
+	- Work Done:
+		- Tested the database with select * queries, and a select query which selects attributes
+		  and joins two tables together in order to retrieve the information
+
+
+
+
+
+
+
+
+
+
+
+
