@@ -53,6 +53,8 @@ Destination Climbing Work Logs:
 	- Work Done:
 		- Tested the database with select * queries, and a select query which selects attributes
 		  and joins two tables together in order to retrieve the information
+		- Set up GitHub repository 
+		- Wrote the first part of the python script (still needs to be tested)
 
 
 
