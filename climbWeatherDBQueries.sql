@@ -43,4 +43,8 @@ VALUES ('test-uuid-2', 'Monkey Traverse', 1, 33.99, 33.99);
 INSERT INTO climbs (uuid, climb_name, area_key, lat, lng, is_boulder, grade_v, grade_f, description)
 VALUES ('test-uuid-2', 'Chode Toad Load Mode Low SDS', 2, 39.991, -105.301, TRUE, 'V10', '7c+', 'Dream Boulder ascended by two goats with a vision.');
 
-Select * FROM climbs
+SELECT * FROM climbs
+
+SELECT climbs.climb_name, climbs.grade_v, areas.area_name
+FROM climbs
+JOIN areas ON climbs.area_key = areas.id;

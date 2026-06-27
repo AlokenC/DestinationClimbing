@@ -55,6 +55,14 @@ Destination Climbing Work Logs:
 		  and joins two tables together in order to retrieve the information
 		- Set up GitHub repository 
 		- Wrote the first part of the python script (still needs to be tested)
+- 6/25/26:
+	- Goals:
+		- Refine the python script and fix the network issue.
+	- Work Done:
+		- The network issue was fixed.
+		
+
+
 
 
 

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-rock-950 text-rock-100 font-sans antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-rock-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-rock-600 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-rock-500;
+  }
+}
+
+@layer components {
+  .leaflet-container {
+    @apply bg-rock-900;
+  }
+
+  .leaflet-popup-content-wrapper {
+    @apply bg-rock-800 text-rock-100 border border-rock-700 rounded-xl shadow-2xl;
+  }
+
+  .leaflet-popup-tip {
+    @apply bg-rock-800;
+  }
+
+  .leaflet-popup-content {
+    @apply text-rock-100 m-0;
+  }
+}
