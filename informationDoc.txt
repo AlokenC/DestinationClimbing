@@ -60,7 +60,15 @@ Destination Climbing Work Logs:
 		- Refine the python script and fix the network issue.
 	- Work Done:
 		- The network issue was fixed.
-		
+- 6/27/26: 
+	- Work Done:
+		- Used Claude Code and made a simple frontend
+- 6/28/26:
+	- Goals: 
+		- Work on the python script, which is supposed to chunk the data and fill the database
+		- (Future) Add the login and signup pages, add a users table to the db and add profile features
+	- Work Done:
+		- 
 
 
 
