@@ -68,18 +68,19 @@ Destination Climbing Work Logs:
 		- Work on the python script, which is supposed to chunk the data and fill the database
 		- (Future) Add the login and signup pages, add a users table to the db and add profile features
 	- Work Done:
-		- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		- Created the injestion script for all of Colorado
+			- Needs to be tested
+			- Sample data needs to be removed from the db
+	- Future Goals:	
+		- Test the script
+		- Connect the database to the frontend
+		- Work on the weather data segment
+- 6/29/26:
+	- Goals:
+		- Clear the db of sample information
+		- Load the python data into the database
+		- Confirm that all of the climbs from Colorado were properly loaded
+		- Start writing the script which loads the weather data into the database
+	- Work Done:
+		- All Colorado data has been fetched
+			- Appears to be successful except for two areas

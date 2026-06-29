@@ -43,7 +43,6 @@ def get_colorado_subregions():
     print(f"Found real Colorado area with {len(colorado['children'])} sub-regions")
     return colorado["children"]
 
-
 def get_subregion_data(uuid):
     url = "https://api.openbeta.io/"
     query = """
@@ -92,8 +91,6 @@ def get_subregion_data(uuid):
     
     data = response.json()
     return data["data"]["area"]
-
-
 
 def insert_area(area, cur, parent_db_id=None):
     if area is None:
