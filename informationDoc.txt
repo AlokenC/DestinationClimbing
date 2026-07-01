@@ -84,3 +84,9 @@ Destination Climbing Work Logs:
 	- Work Done:
 		- All Colorado data has been fetched
 			- Appears to be successful except for two areas
+- 7/1/26:
+	Goals:
+		- Continue writing the weather data importing script
+		- work on connecting the frontend to the database.
+	Work:
+		- 
